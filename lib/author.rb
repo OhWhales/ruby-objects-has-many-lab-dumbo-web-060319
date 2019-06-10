@@ -11,6 +11,8 @@ class Author
   end
   
   def posts 
-    
+    Post.all.select do |p|
+      
+    end
   end
 end
