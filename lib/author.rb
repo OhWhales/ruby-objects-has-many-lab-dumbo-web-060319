@@ -15,4 +15,8 @@ class Author
       x.author == self 
     end
   end
+  
+  def add_post(added)
+    
+  end
 end
