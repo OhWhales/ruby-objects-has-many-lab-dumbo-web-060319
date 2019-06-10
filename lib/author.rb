@@ -10,4 +10,7 @@ class Author
     posts.artist = self 
   end
   
+  def posts 
+    
+  end
 end
