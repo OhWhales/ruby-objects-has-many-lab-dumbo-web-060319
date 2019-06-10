@@ -12,9 +12,9 @@ class Post
   end
   
   def author_name 
-    x = @artist 
+    x = @author 
     if x 
-      return @artist 
+      return @author
     else 
       return nil 
     end 
