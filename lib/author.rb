@@ -9,6 +9,7 @@ class Author
   
   def add_post(posts)
     posts.artist = self 
+    @@post_count += 1 
   end
   
   def posts 
