@@ -8,6 +8,6 @@ class Author
   
   def add_post(posts)
     posts.artist = self 
-    
   end
+  
 end
