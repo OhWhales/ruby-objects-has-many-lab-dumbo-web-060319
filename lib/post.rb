@@ -12,7 +12,12 @@ class Post
   end
   
   def author_name 
-    
+    x = @artist 
+    if x 
+      return @artist 
+    else 
+      return nil 
+    end 
   end
   
 end
